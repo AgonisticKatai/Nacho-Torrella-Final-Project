@@ -15,14 +15,14 @@
 #### Skylab Final Project
 
 ## Login and register
-##![Screenshot login](https://imgur.com/L7U0PT4)
+## ![Screenshot login](https://imgur.com/L7U0PT4)
 
 ## Home page
-##![Screenshot home](https://imgur.com/AFdmYCT)
-##![Screenshot home down](https://imgur.com/l8JLR9N)
+## ![Screenshot home](https://imgur.com/AFdmYCT)
+## ![Imgur](https://i.imgur.com/l8JLR9N.png)
 
 ## Profile page
-##![Screenshot profile](https://imgur.com/VtJ5aWW)
+## ![Screenshot profile](https://imgur.com/VtJ5aWW)
 
 It is the application that I have presented as the final project of the **Skylab Coders Academy** bootcamp.
 
@@ -45,7 +45,7 @@ Finally we have a search bar in which we can enter a type of work and see how ma
 
 - or install client and server on your computer
 
-#### Install server and database
+#### - Install server and database
 ###### (YOU NEED AN ACCOUNT ON MONGOLAB AND SENGRID)
 
 ##### 1) Clone the back-end code link repository ([Take My Friends back-end code link](https://github.com/AgonisticKatai/take-my-friends-backend))
@@ -85,7 +85,7 @@ mongoimport -h ds<DB URL>.mlab.com:13136 -d <DB NAME> -c users -u <DB USER> -p <
 npm run dev
 ```
 
-#### Install REACT client
+#### - Install REACT client
 
 ##### 1) Clone the front-end code link repository ([Take My Friends front-end code link](https://github.com/AgonisticKatai/take-my-friends))
 
