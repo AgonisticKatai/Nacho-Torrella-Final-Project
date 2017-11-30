@@ -15,11 +15,8 @@ In the section '**Categories**' will be shown a list of all the trades of our co
 
 Finally we have a search bar in which we can enter a type of work and see how many coincidences there are among our friends.
 
-
-```
 [Front-end code link](https://github.com/AgonisticKatai/take-my-friends)
 
 [Back-end code link](https://github.com/AgonisticKatai/take-my-friends-backend)
 
 [Surge - Take My Friends Project](http://takemyfriends.surge.sh/login)
-```
