@@ -1,7 +1,7 @@
 **Take My Friends - Skylab Final Project**
 
 
-It is the application that I have presented as the final project of the **Skylab coders academy** bootcamp.
+It is the application that I have presented as the final project of the **Skylab Coders Academy** bootcamp.
 
 It is based on an idea similar to Facebook and LinkedIn through which we can create a social network of friends in which to find who works in a particular sector. The idea is to find in your circle of friends who works in a certain sector and to be able to contact with him to request some kind of collaboration.
 
@@ -14,6 +14,8 @@ After adding a friend, we will automatically suggest a series of contacts in the
 In the section '**Categories**' will be shown a list of all the trades of our contacts and clicking on any of them we can see how many of our friends have that same profession and get in touch with them.
 
 Finally we have a search bar in which we can enter a type of work and see how many coincidences there are among our friends.
+
+**Links to GitHub Project**
 
 [Front-end code link](https://github.com/AgonisticKatai/take-my-friends)
 
