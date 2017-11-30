@@ -1,5 +1,28 @@
-**Take My Friends - Skylab Final Project**
+[![HTML5,CSS3 and JS](https://github.com/FransLopez/logo-images/blob/master/logos/html5-css3-js.png)](http://www.w3.org/)
+[![ES6](https://github.com/MarioTerron/logo-images/blob/master/logos/es6.png)](http://www.ecma-international.org/ecma-262/6.0/) 
+[![Bootstrap](https://github.com/FransLopez/logo-images/blob/master/logos/bootstrap.png)](http://getbootstrap.com/)  
+[![npm](https://github.com/MarioTerron/logo-images/blob/master/logos/npm.png)](https://www.npmjs.com/)
+[![React](https://github.com/FransLopez/logo-images/blob/master/logos/react.png)](https://facebook.github.io/react/)
+[![NodeJS](https://github.com/FransLopez/logo-images/blob/master/logos/nodejs.png)](https://nodejs.org/)
+[![ExpressJS](https://github.com/MarioTerron/logo-images/blob/master/logos/expressjs.png)](http://expressjs.com///)
+[![MongoDB](https://github.com/FransLopez/logo-images/blob/master/logos/mongodb.png)](https://www.mongodb.com/)
+[![Monogoose](https://github.com/MarioTerron/logo-images/blob/master/logos/mongoose.png)](http://mongoosejs.com/)
+---
+[![Skylab](https://github.com/FransLopez/logo-images/blob/master/logos/skylab-56.png)](http://www.skylabcoders.com/)
 
+
+##Take My Friends
+####Skylab Final Project
+
+##Login and register
+##![Screenshot login](https://imgur.com/L7U0PT4)
+
+##Home page
+##![Screenshot home](https://imgur.com/AFdmYCT)
+##![Screenshot home down](https://imgur.com/l8JLR9N)
+
+##Profile page
+##![Screenshot profile](https://imgur.com/VtJ5aWW)
 
 It is the application that I have presented as the final project of the **Skylab Coders Academy** bootcamp.
 
@@ -15,27 +38,24 @@ In the section '**Categories**' will be shown a list of all the trades of our co
 
 Finally we have a search bar in which we can enter a type of work and see how many coincidences there are among our friends.
 
+##Project links
 
+- You can view project online
+    http://takemyfriends.surge.sh/login
 
-**Links to GitHub Project**
+- or install client and server on your computer
 
-[Front-end code link](https://github.com/AgonisticKatai/take-my-friends)
+####Install server and database
+######(YOU NEED AN ACCOUNT ON MONGOLAB AND SENGRID)
 
-[Back-end code link](https://github.com/AgonisticKatai/take-my-friends-backend)
+#####1) Clone the back-end code link repository ([Take My Friends back-end code link](https://github.com/AgonisticKatai/take-my-friends-backend))
 
-[Surge - Take My Friends Project](http://takemyfriends.surge.sh/login)
+#####2) Create a ```.env``` file on the root folder
 
+#####3) Enter the following information in the ```.env``` file
 
-**Screenshots**
-
-**Run server** 
-Clone the Back-End code link repository
-
-Create a ```.env``` file
-YOU NEED AN ACCOUNT ON MONGOLAB AND SENGRID
- 
 ```
-URL_DB=mongodb://<YOUR DB USER>:<YOUR DB PASSWORD>@ds<YOUR DB URL>.mlab.com:13136/<YOUR DB NAME>
+URL_DB=mongodb://<YOUR DB USER>:<YOUR DB PASSWORD>@ds<YOUR DB URL>.mlab.com:<YOUR DB PORT>/<YOUR DB NAME>
 
 SECRET=XXXXXXXXXX
 
@@ -53,14 +73,18 @@ facebookClientSecret=XXXXXXXXXX
 linkedinCliendID=XXXXXXXXX
 linkedinClientSecret=XXXXXXXXXX
 ```
-- mongoimport -h ds<DB URL>.mlab.com:13136 -d <DB NAME> -c users -u <DB USER> -p <DB PASSWORD> --file <JSON FILE PATH>
-(JSON file are in TAKEMYFRIENDS/README_JSON folder)
-- npm i
-- npm run dev
 
+#####4) Import the database
+```mongoimport -h ds<DB URL>.mlab.com:13136 -d <DB NAME> -c users -u <DB USER> -p <DB PASSWORD> --file <JSON FILE PATH>
+```
+######(JSON file are in JSON_user_database folder)
 
-**Run REACT client**
-Clone the Front-End code link repository
+#####5) Run server
+######```npm run dev```
 
-- npm start
+####Install REACT client
 
+#####1) Clone the front-end code link repository ([Take My Friends front-end code link](https://github.com/AgonisticKatai/take-my-friends))
+
+#####2) Run client
+######```npm start```
