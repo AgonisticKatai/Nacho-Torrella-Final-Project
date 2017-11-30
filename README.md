@@ -15,6 +15,8 @@ In the section '**Categories**' will be shown a list of all the trades of our co
 
 Finally we have a search bar in which we can enter a type of work and see how many coincidences there are among our friends.
 
+
+
 **Links to GitHub Project**
 
 [Front-end code link](https://github.com/AgonisticKatai/take-my-friends)
@@ -22,3 +24,43 @@ Finally we have a search bar in which we can enter a type of work and see how ma
 [Back-end code link](https://github.com/AgonisticKatai/take-my-friends-backend)
 
 [Surge - Take My Friends Project](http://takemyfriends.surge.sh/login)
+
+
+**Screenshots**
+
+**Run server** 
+Clone the Back-End code link repository
+
+Create a ```.env``` file
+YOU NEED AN ACCOUNT ON MONGOLAB AND SENGRID
+ 
+```
+URL_DB=mongodb://<YOUR DB USER>:<YOUR DB PASSWORD>@ds<YOUR DB URL>.mlab.com:13136/<YOUR DB NAME>
+
+SECRET=XXXXXXXXXX
+
+SENDGRID_API_KEY=XXXXXXXXXX
+
+googleClientID=XXXXXXXXXX
+googleClientSecret=XXXXXXXXX
+
+twitterClientID=XXXXXXXXXX
+twitterClientSecret=XXXXXXXXX
+
+facebookClientID=XXXXXXXXX
+facebookClientSecret=XXXXXXXXXX
+
+linkedinCliendID=XXXXXXXXX
+linkedinClientSecret=XXXXXXXXXX
+```
+- mongoimport -h ds<DB URL>.mlab.com:13136 -d <DB NAME> -c users -u <DB USER> -p <DB PASSWORD> --file <JSON FILE PATH>
+(JSON file are in TAKEMYFRIENDS/README_JSON folder)
+- npm i
+- npm run dev
+
+
+**Run REACT client**
+Clone the Front-End code link repository
+
+- npm start
+
