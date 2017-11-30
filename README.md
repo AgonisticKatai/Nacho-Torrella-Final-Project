@@ -15,14 +15,14 @@
 #### Skylab Final Project
 
 ## Login and register
-## ![Screenshot login](https://imgur.com/L7U0PT4)
+## ![Login and register](https://i.imgur.com/L7U0PT4.png)
 
 ## Home page
-## ![Screenshot home](https://imgur.com/AFdmYCT)
-## ![Imgur](https://i.imgur.com/l8JLR9N.png)
+## ![Home](https://i.imgur.com/AFdmYCT.png)
+## ![Home down](https://i.imgur.com/l8JLR9N.png)
 
 ## Profile page
-## ![Screenshot profile](https://imgur.com/VtJ5aWW)
+## ![Profile](https://i.imgur.com/VtJ5aWW.png)
 
 It is the application that I have presented as the final project of the **Skylab Coders Academy** bootcamp.
 
