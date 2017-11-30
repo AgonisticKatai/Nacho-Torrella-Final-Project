@@ -11,17 +11,17 @@
 [![Skylab](https://github.com/FransLopez/logo-images/blob/master/logos/skylab-56.png)](http://www.skylabcoders.com/)
 
 
-##Take My Friends
-####Skylab Final Project
+## Take My Friends
+#### Skylab Final Project
 
-##Login and register
+## Login and register
 ##![Screenshot login](https://imgur.com/L7U0PT4)
 
-##Home page
+## Home page
 ##![Screenshot home](https://imgur.com/AFdmYCT)
 ##![Screenshot home down](https://imgur.com/l8JLR9N)
 
-##Profile page
+## Profile page
 ##![Screenshot profile](https://imgur.com/VtJ5aWW)
 
 It is the application that I have presented as the final project of the **Skylab Coders Academy** bootcamp.
@@ -38,21 +38,21 @@ In the section '**Categories**' will be shown a list of all the trades of our co
 
 Finally we have a search bar in which we can enter a type of work and see how many coincidences there are among our friends.
 
-##Project links
+## Project links
 
 - You can view project online
     http://takemyfriends.surge.sh/login
 
 - or install client and server on your computer
 
-####Install server and database
-######(YOU NEED AN ACCOUNT ON MONGOLAB AND SENGRID)
+#### Install server and database
+###### (YOU NEED AN ACCOUNT ON MONGOLAB AND SENGRID)
 
-#####1) Clone the back-end code link repository ([Take My Friends back-end code link](https://github.com/AgonisticKatai/take-my-friends-backend))
+##### 1) Clone the back-end code link repository ([Take My Friends back-end code link](https://github.com/AgonisticKatai/take-my-friends-backend))
 
-#####2) Create a ```.env``` file on the root folder
+##### 2) Create a ```.env``` file on the root folder
 
-#####3) Enter the following information in the ```.env``` file
+##### 3) Enter the following information in the ```.env``` file
 
 ```
 URL_DB=mongodb://<YOUR DB USER>:<YOUR DB PASSWORD>@ds<YOUR DB URL>.mlab.com:<YOUR DB PORT>/<YOUR DB NAME>
@@ -74,17 +74,17 @@ linkedinCliendID=XXXXXXXXX
 linkedinClientSecret=XXXXXXXXXX
 ```
 
-#####4) Import the database
+##### 4) Import the database
 ```mongoimport -h ds<DB URL>.mlab.com:13136 -d <DB NAME> -c users -u <DB USER> -p <DB PASSWORD> --file <JSON FILE PATH>
 ```
-######(JSON file are in JSON_user_database folder)
+###### (JSON file are in JSON_user_database folder)
 
-#####5) Run server
+##### 5) Run server
 ######```npm run dev```
 
-####Install REACT client
+#### Install REACT client
 
-#####1) Clone the front-end code link repository ([Take My Friends front-end code link](https://github.com/AgonisticKatai/take-my-friends))
+##### 1) Clone the front-end code link repository ([Take My Friends front-end code link](https://github.com/AgonisticKatai/take-my-friends))
 
-#####2) Run client
+##### 2) Run client
 ######```npm start```
