@@ -75,16 +75,21 @@ linkedinClientSecret=XXXXXXXXXX
 ```
 
 ##### 4) Import the database
-```mongoimport -h ds<DB URL>.mlab.com:13136 -d <DB NAME> -c users -u <DB USER> -p <DB PASSWORD> --file <JSON FILE PATH>
+```
+mongoimport -h ds<DB URL>.mlab.com:13136 -d <DB NAME> -c users -u <DB USER> -p <DB PASSWORD> --file <JSON FILE PATH>
 ```
 ###### (JSON file are in JSON_user_database folder)
 
 ##### 5) Run server
-######```npm run dev```
+```
+npm run dev
+```
 
 #### Install REACT client
 
 ##### 1) Clone the front-end code link repository ([Take My Friends front-end code link](https://github.com/AgonisticKatai/take-my-friends))
 
 ##### 2) Run client
-######```npm start```
+```
+npm start
+```
