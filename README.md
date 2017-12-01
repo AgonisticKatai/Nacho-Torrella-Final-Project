@@ -60,23 +60,11 @@ URL_DB=mongodb://<YOUR DB USER>:<YOUR DB PASSWORD>@ds<YOUR DB URL>.mlab.com:<YOU
 SECRET=XXXXXXXXXX
 
 SENDGRID_API_KEY=XXXXXXXXXX
-
-googleClientID=XXXXXXXXXX
-googleClientSecret=XXXXXXXXX
-
-twitterClientID=XXXXXXXXXX
-twitterClientSecret=XXXXXXXXX
-
-facebookClientID=XXXXXXXXX
-facebookClientSecret=XXXXXXXXXX
-
-linkedinCliendID=XXXXXXXXX
-linkedinClientSecret=XXXXXXXXXX
 ```
 
 ##### 4) Import the database
 ```
-mongoimport -h ds<DB URL>.mlab.com:13136 -d <DB NAME> -c users -u <DB USER> -p <DB PASSWORD> --file <JSON FILE PATH>
+mongoimport -h ds<DB URL>.mlab.com:<DB PORT> -d <DB NAME> -c users -u <DB USER> -p <DB PASSWORD> --file <JSON FILE PATH>
 ```
 ###### (JSON file are in JSON_user_database folder)
 
