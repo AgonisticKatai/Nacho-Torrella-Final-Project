@@ -41,9 +41,10 @@ Finally we have a search bar in which we can enter a type of work and see how ma
 ## Project links
 
 - You can view project online
-    http://takemyfriends.surge.sh/login
+    http://takemyfriends.surge.sh
 
     username: nachotorrella@gmail.com
+
     password: 1234
 
 - or install client and server on your computer
